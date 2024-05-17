@@ -1,0 +1,1 @@
+export type AppendGood<T> = { [Key in keyof T as Key extends string ? `good_${Key}` : never]: T[Key] };
