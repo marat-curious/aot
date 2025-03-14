@@ -4,7 +4,7 @@
   "description": "Advent of Typescript",
   "main": "main.ts",
   "scripts": {
-    "test": "tsc --noEmit"
+    "test": "tsc --lib es2015,dom --noEmit"
   },
   "keywords": [
     "aot"
